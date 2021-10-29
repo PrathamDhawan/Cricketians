@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cricketians</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="live">Live</string>
+    <string name="stats">Stats</string>
+    <string name="feed">Feed</string>
+    <string name="news">News</string>
+    <string name="sign_up">Sign In/Sign Up</string>
+    <string name="first_name">first name</string>
+    <string name="email">email</string>
+    <string name="register_yourself_to_continue">Register yourself to continue .</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="have_an_account_sign_in">Have an account? Sign in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_an_account_click_to_create_one">Don\'t have an account? Click to create one</string>
+</resources>

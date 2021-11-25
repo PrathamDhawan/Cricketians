@@ -21,24 +21,28 @@
             android:id="@+id/newsLinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="15sp"
+            android:padding="5dp"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:id="@+id/iv_urlImage"
+                android:scaleType="centerCrop"/>
 
             <TextView
                 android:id="@+id/tv_title"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="3dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_margin="5dp"
                 android:maxLines="2"
                 android:ellipsize="end"
                 android:fontFamily="@font/alegreya_sc"
                 android:textSize="15sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_source"
-                android:textSize="13sp"/>
 
         </LinearLayout>
 

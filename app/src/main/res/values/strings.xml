@@ -16,4 +16,14 @@
     <string name="have_an_account_sign_in">Have an account? Sign in</string>
     <string name="sign_in">Sign In</string>
     <string name="don_t_have_an_account_click_to_create_one">Don\'t have an account? Click to create one</string>
+    <string name="add_post_button">add post button</string>
+    <string name="post">POST</string>
+    <string name="user_image">user image</string>
+    <string name="like_button">like button</string>
+    <string name="upload_your_avatar">Upload your avatar</string>
+    <string name="logout">Logout</string>
+    <string name="shop">Shop</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="product_image">Product Image</string>
+    <string name="add_product">Add Product</string>
 </resources>

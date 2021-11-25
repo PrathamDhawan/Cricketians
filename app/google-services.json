@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "475253647636",
+    "firebase_url": "https://cricketians-5a433-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "cricketians-5a433",
     "storage_bucket": "cricketians-5a433.appspot.com"
   },
@@ -14,7 +15,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "475253647636-ofg1mjfo24sfesmthngeqcfgmf560v9m.apps.googleusercontent.com",
+          "client_id": "475253647636-mpip0f2eomrhsabbq0c3n4htm1s0c90i.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "app.cricketians.android",

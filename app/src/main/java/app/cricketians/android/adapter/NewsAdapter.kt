@@ -3,10 +3,14 @@ package app.cricketians.android.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import app.cricketians.android.R
+import app.cricketians.android.models.News
+import com.bumptech.glide.Glide
+import kotlinx.coroutines.withContext
 
 class NewsAdapter(private val listener: NewsItemClicked) : RecyclerView.Adapter<NewsHolder>() {
 
@@ -21,8 +25,8 @@ class NewsAdapter(private val listener: NewsItemClicked) : RecyclerView.Adapter<
     override fun onBindViewHolder(holder: NewsHolder, position: Int) {
 
         holder.titleView.text = NewsArray[position].title
-        holder.sourceView.text = ("source - " + NewsArray[position].source)
-        holder.cardView.setOnClickListener {
+        Glide.with(holder.imageView.context).load(NewsArray[position].imageurl).into(holder.imageView)
+        holder.cardViewLink.setOnClickListener {
             listener.onItemClicked(NewsArray[holder.adapterPosition])
         }
     }
@@ -43,8 +47,8 @@ class NewsAdapter(private val listener: NewsItemClicked) : RecyclerView.Adapter<
 class NewsHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
     val titleView: TextView = itemView.findViewById(R.id.tv_title)
-    val sourceView: TextView = itemView.findViewById(R.id.tv_source)
-    val cardView: CardView = itemView.findViewById(R.id.cardView)
+    val imageView: ImageView = itemView.findViewById(R.id.iv_urlImage)
+    val cardViewLink: CardView = itemView.findViewById(R.id.cardView)
 }
 
 interface NewsItemClicked{
